@@ -4,13 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
   faReact,
-  faPython,
-  faDocker,
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
   faShieldAlt,
-  faNetworkWired,
   faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons";
 
