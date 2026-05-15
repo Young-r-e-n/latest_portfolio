@@ -1,0 +1,16 @@
+.vertical-timeline-element--education {
+  .vertical-timeline-element-title {
+    font-weight: 600;
+  }
+
+  .vertical-timeline-element-subtitle {
+    font-style: italic;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .vertical-timeline-element--education {
+    margin-left: 0;
+  }
+}
