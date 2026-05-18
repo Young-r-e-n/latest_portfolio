@@ -9,6 +9,7 @@ import {
 import {
   faShieldAlt,
   faLaptopCode,
+  faToolbox,
 } from "@fortawesome/free-solid-svg-icons";
 
 import Chip from "@mui/material/Chip";
@@ -25,6 +26,7 @@ const labelsFirst = [
   "Node.js",
   "Python",
   "PHP",
+  "WordPress",
   "SQL",
   "REST APIs",
   "Machine Learning",
@@ -68,7 +70,7 @@ function Expertise() {
           {/* SOFTWARE ENGINEERING & MACHINE LEARNING */}
 
           <div className="skill">
-            <FontAwesomeIcon icon={faReact} size="3x" />
+            <FontAwesomeIcon icon={faLaptopCode} size="3x" />
 
             <h3>Software Engineering & ML</h3>
 
@@ -116,7 +118,7 @@ function Expertise() {
           {/* IT SUPPORT & HARDWARE */}
 
           <div className="skill">
-            <FontAwesomeIcon icon={faLaptopCode} size="3x" />
+            <FontAwesomeIcon icon={faToolbox} size="3x" />
 
             <h3>IT Support & Hardware</h3>
 

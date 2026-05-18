@@ -1,48 +1,91 @@
-.contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
+.contact_wrapper {
+  width: 100%;
+
+  svg {
+    font-size: 1em;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
 }
 
 .contact-form {
   padding-top: 20px;
+  width: 100%;
+
+  .MuiTextField-root {
+    width: 100%;
+  }
+
+  .MuiOutlinedInput-root {
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #050f0b;
+
+    input,
+    textarea {
+      color: #050f0b !important;
+      -webkit-text-fill-color: #050f0b !important;
+      font-size: 1rem;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #888 !important;
+      opacity: 1;
+    }
+
+    fieldset {
+      border-color: #cccccc;
+    }
+
+    &:hover fieldset {
+      border-color: #5000ca;
+    }
+
+    &.Mui-focused fieldset {
+      border-color: #5000ca;
+      border-width: 2px;
+    }
+  }
+
+  .MuiInputLabel-root {
+    color: #050f0b !important;
+
+    &.Mui-focused {
+      color: #5000ca !important;
+    }
+  }
 
   button {
     float: right;
+    margin-top: 15px;
     background-color: white;
     color: #050f0b;
+    font-weight: 600;
+    transition: 0.3s ease;
   }
 
   button:hover {
     background-color: #5000ca;
     color: white;
   }
-
-  fieldset {
-    background-color: white;
-  }
-}
-
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
 }
 
 .form-flex {
   display: flex;
   gap: 15px;
-  padding-bottom: 15px;
-}
+  margin-bottom: 15px;
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
-}
-
-form {
-  width: 100% !important;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
+  width: 100%;
+}
+
+label {
+  font-size: 1rem;
+  font-family: 'DomaineDispNar-Medium', sans-serif;
 }
