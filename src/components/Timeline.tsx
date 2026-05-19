@@ -94,7 +94,7 @@ Penetration testing, vulnerability assessment, and comprehensive cybersecurity a
           {/* NEMA INTERNSHIP */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2024"
+            date="2023 May - Aug 2023"
             iconStyle={{ background: "#06b6d4", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
